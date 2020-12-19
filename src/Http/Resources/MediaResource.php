@@ -23,7 +23,6 @@ class MediaResource extends JsonResource
             'resize_path'  => $this->resize_path,
             'extension'    => $this->extension,
             'url_computed' => $this->url_computed,
-            'url_resized'  => $this->url_resized,
         ];
     }
 }
