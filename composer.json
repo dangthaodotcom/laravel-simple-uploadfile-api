@@ -1,0 +1,26 @@
+{
+    "name": "Dt/media",
+    "description": "Media",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dang Thao",
+            "email": "dangthao.stuk14@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dt\\Media\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dt\\Media\\Providers\\MediaServiceProvider"
+            ]
+        }
+    }
+}
